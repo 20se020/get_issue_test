@@ -16,6 +16,7 @@ public class Test{
                                      lastName;
         try {
             fileWriter.write(customizedGreetings + "\n");
+            fileWriter.flush();
             fileWriter.close();
         } catch (IOException exception) {
             exception.printStackTrace();
@@ -28,7 +29,6 @@ public class Test{
 
         //creates a file in append mode and keeps it open
         FileWriter fileWriter = new FileWriter("Files/file.txt", true);
-        System.out.println("New line");
         //writeToFile() is called to write data into the file.txt
         writeToFile("Hi", "Mehvish", "Ashiq", fileWriter);
         writeToFile("Hello", "Tahir", "Raza", fileWriter);
