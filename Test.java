@@ -30,7 +30,7 @@ public class Test{
         //creates a file in append mode and keeps it open
         FileWriter fileWriter = new FileWriter("Files/file.txt", true);
         //writeToFile() is called to write data into the file.txt
-        writeToFile("Hi", "Mehvish", "Ashiq", fileWriter);
+        writeToFile("Hey", "Mehvish", "Ashiq", fileWriter);
         writeToFile("Hello", "Tahir", "Raza", fileWriter);
 
    }//end main()
