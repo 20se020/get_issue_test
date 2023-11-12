@@ -33,6 +33,13 @@ public class Test{
         writeToFile("Hey", "Mehvish", "Ashiq", fileWriter);
         writeToFile("Hello", "Tahir", "Raza", fileWriter);
 
+        try {
+            System.out.println("Test");
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        }
+
+
    }//end main()
 
 }//end Test class
