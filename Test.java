@@ -16,6 +16,7 @@ public class Test{
                                      lastName;
         try {
             fileWriter.write(customizedGreetings + "\n");
+            System.out.println("19");
             fileWriter.flush();
             fileWriter.close();
         } catch (IOException exception) {
