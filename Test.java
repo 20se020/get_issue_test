@@ -35,6 +35,7 @@ public class Test{
 
         try {
             System.out.println("Test");
+            System.out.println("Add line");
         } catch (IOException exception) {
             exception.printStackTrace();
         }
